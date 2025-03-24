@@ -38,8 +38,8 @@ public:
 							b.boardParsed()->board()[pieceIdx]->canMove(*b.boardParsed(), moveset);
 							int moveSize = Value(moveset.size());
 							egScore += isWhite ? moveSize : -moveSize;
-							int scoreKing = kingEndgameTable[idxTable];
-							egScore += isWhite ? scoreKing : -scoreKing;
+							(isWhite ? scoreKingWhite : scoreKingBlack) = kingEndgameTable[idxTable];
+							egScore += isWhite ? scoreKingWhite : scoreKingBlack;
 							mgScore += isWhite ? (kingTable[idxTable] - moveSize) : -(kingTable[idxTable] - moveSize);
 						}
 						else
