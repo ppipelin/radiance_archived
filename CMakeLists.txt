@@ -171,10 +171,12 @@ else()
 	endif()
 
 	if(COMPILER_SUPPORTS_STATIC_LIBGCC)
+		add_compile_options("$<$<CONFIG:RELEASE>:-static-libgcc>")
 		target_link_options(radiance PRIVATE "$<$<CONFIG:RELEASE>:-static-libgcc>")
 	endif()
 
 	if(COMPILER_SUPPORTS_STATIC_LIBCPP)
+		add_compile_options("$<$<CONFIG:RELEASE>:-static-libstdc++>")
 		target_link_options(radiance PRIVATE "$<$<CONFIG:RELEASE>:-static-libstdc++>")
 	endif()
 
