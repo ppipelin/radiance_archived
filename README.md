@@ -1,6 +1,10 @@
+# ARCHIVED REPOSITORY
+
+For a newer version of the engine, go on https://github.com/ppipelin/radiance/
+
 # Radiance Engine
-[![Build Status](https://github.com/ppipelin/radiance/actions/workflows/cmake-multi-platform.yml/badge.svg)](https://github.com/ppipelin/radiance/actions/workflows/cmake-multi-platform.yml)
-[![Latest Release](https://img.shields.io/github/v/release/ppipelin/radiance?display_name=release)](https://github.com/ppipelin/radiance/releases)
+[![Build Status](https://github.com/ppipelin/radiance/actions/workflows/cmake-multi-platform.yml/badge.svg)](https://github.com/ppipelin/radiance_archived/actions/workflows/cmake-multi-platform.yml)
+[![Latest Release](https://img.shields.io/github/v/release/ppipelin/radiance?display_name=release)](https://github.com/ppipelin/radiance_archived/releases)
 ![License](https://img.shields.io/github/license/ppipelin/radiance)
 
 [![Lichess classical rating](https://lichess-shield.vercel.app/api?username=radianceengine&format=classical)](https://lichess.org/@/radianceengine/perf/classical)
@@ -98,16 +102,16 @@ stop
 
 _I'm radiant!_
 
-[radiance_3.4]: https://github.com/ppipelin/radiance/releases/tag/3.4
-[radiance_3.3]: https://github.com/ppipelin/radiance/releases/tag/3.3
-[radiance_3.2]: https://github.com/ppipelin/radiance/releases/tag/3.2
-[radiance_3.1.1]: https://github.com/ppipelin/radiance/releases/tag/3.1.1
-[radiance_3.0.1]: https://github.com/ppipelin/radiance/releases/tag/3.0.1
-[radiance_2.4]: https://github.com/ppipelin/radiance/releases/tag/2.4
-[radiance_2.3]: https://github.com/ppipelin/radiance/releases/tag/2.3
-[radiance_2.2]: https://github.com/ppipelin/radiance/releases/tag/2.2
-[radiance_2.1]: https://github.com/ppipelin/radiance/releases/tag/2.1
-[radiance_2.0]: https://github.com/ppipelin/radiance/releases/tag/2.0
-[radiance_2.4]: https://github.com/ppipelin/radiance/releases/tag/2.4
-[radiance_1.5]: https://github.com/ppipelin/radiance/releases/tag/1.5
-[radiance_1.4]: https://github.com/ppipelin/radiance/releases/tag/1.4
+[radiance_3.4]: https://github.com/ppipelin/radiance_archived/releases/tag/3.4
+[radiance_3.3]: https://github.com/ppipelin/radiance_archived/releases/tag/3.3
+[radiance_3.2]: https://github.com/ppipelin/radiance_archived/releases/tag/3.2
+[radiance_3.1.1]: https://github.com/ppipelin/radiance_archived/releases/tag/3.1.1
+[radiance_3.0.1]: https://github.com/ppipelin/radiance_archived/releases/tag/3.0.1
+[radiance_2.4]: https://github.com/ppipelin/radiance_archived/releases/tag/2.4
+[radiance_2.3]: https://github.com/ppipelin/radiance_archived/releases/tag/2.3
+[radiance_2.2]: https://github.com/ppipelin/radiance_archived/releases/tag/2.2
+[radiance_2.1]: https://github.com/ppipelin/radiance_archived/releases/tag/2.1
+[radiance_2.0]: https://github.com/ppipelin/radiance_archived/releases/tag/2.0
+[radiance_2.4]: https://github.com/ppipelin/radiance_archived/releases/tag/2.4
+[radiance_1.5]: https://github.com/ppipelin/radiance_archived/releases/tag/1.5
+[radiance_1.4]: https://github.com/ppipelin/radiance_archived/releases/tag/1.4
