@@ -7,6 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+- Future versions will be written in zig on this repo : https://github.com/ppipelin/radiance
+
+## [3.5] - 2025-04-12
+
+### Added
+
+- Lasker position
+- Time management with increment
+- `eval` command
+
+## Changed
+
+- Compilation options assigned to targets
+- UIntL for display of large numbers
+- Score of king actually used for endgame
+
 ## [3.4] - 2024-12-25
 
 ### Added
@@ -240,22 +256,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - UCI `position` command
 - `Random` search
 
-[Unreleased]: https://github.com/ppipelin/radiance/compare/3.4...HEAD
-[3.4]: https://github.com/ppipelin/radiance/compare/3.3...3.4
-[3.3]: https://github.com/ppipelin/radiance/compare/3.2...3.3
-[3.2]: https://github.com/ppipelin/radiance/compare/3.1.1...3.2
-[3.1.1]: https://github.com/ppipelin/radiance/compare/3.1...3.1.1
-[3.1]: https://github.com/ppipelin/radiance/compare/3.0.1...3.1
-[3.0.1]: https://github.com/ppipelin/radiance/compare/3.0...3.0.1
-[3.0]: https://github.com/ppipelin/radiance/compare/2.4...3.0
-[2.4]: https://github.com/ppipelin/radiance/compare/2.3...2.4
-[2.3]: https://github.com/ppipelin/radiance/compare/2.2...2.3
-[2.2]: https://github.com/ppipelin/radiance/compare/2.1...2.2
-[2.1]: https://github.com/ppipelin/radiance/compare/2.0...2.1
-[2.0]: https://github.com/ppipelin/radiance/compare/1.5...2.0
-[1.5]: https://github.com/ppipelin/radiance/compare/1.4...1.5
-[1.4]: https://github.com/ppipelin/radiance/compare/1.3...1.4
-[1.3]: https://github.com/ppipelin/radiance/compare/1.2...1.3
-[1.2]: https://github.com/ppipelin/radiance/compare/1.1...1.2
-[1.1]: https://github.com/ppipelin/radiance/compare/1.0...1.1
-[1.0]: https://github.com/ppipelin/radiance/releases/tag/1.0
+[Unreleased]: https://github.com/ppipelin/radiance_archived/compare/3.5...HEAD
+[3.5]: https://github.com/ppipelin/radiance_archived/compare/3.4...3.5
+[3.4]: https://github.com/ppipelin/radiance_archived/compare/3.3...3.4
+[3.3]: https://github.com/ppipelin/radiance_archived/compare/3.2...3.3
+[3.2]: https://github.com/ppipelin/radiance_archived/compare/3.1.1...3.2
+[3.1.1]: https://github.com/ppipelin/radiance_archived/compare/3.1...3.1.1
+[3.1]: https://github.com/ppipelin/radiance_archived/compare/3.0.1...3.1
+[3.0.1]: https://github.com/ppipelin/radiance_archived/compare/3.0...3.0.1
+[3.0]: https://github.com/ppipelin/radiance_archived/compare/2.4...3.0
+[2.4]: https://github.com/ppipelin/radiance_archived/compare/2.3...2.4
+[2.3]: https://github.com/ppipelin/radiance_archived/compare/2.2...2.3
+[2.2]: https://github.com/ppipelin/radiance_archived/compare/2.1...2.2
+[2.1]: https://github.com/ppipelin/radiance_archived/compare/2.0...2.1
+[2.0]: https://github.com/ppipelin/radiance_archived/compare/1.5...2.0
+[1.5]: https://github.com/ppipelin/radiance_archived/compare/1.4...1.5
+[1.4]: https://github.com/ppipelin/radiance_archived/compare/1.3...1.4
+[1.3]: https://github.com/ppipelin/radiance_archived/compare/1.2...1.3
+[1.2]: https://github.com/ppipelin/radiance_archived/compare/1.1...1.2
+[1.1]: https://github.com/ppipelin/radiance_archived/compare/1.0...1.1
+[1.0]: https://github.com/ppipelin/radiance_archived/releases/tag/1.0
