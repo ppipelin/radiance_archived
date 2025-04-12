@@ -39,7 +39,7 @@ public:
 							int moveSize = Value(moveset.size());
 							egScore += isWhite ? moveSize : -moveSize;
 							(isWhite ? scoreKingWhite : scoreKingBlack) = kingEndgameTable[idxTable];
-							egScore += isWhite ? scoreKingWhite : scoreKingBlack;
+							egScore += isWhite ? scoreKingWhite : -scoreKingBlack;
 							mgScore += isWhite ? (kingTable[idxTable] - moveSize) : -(kingTable[idxTable] - moveSize);
 						}
 						else
