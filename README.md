@@ -3,9 +3,9 @@
 For a newer version of the engine, go to https://github.com/ppipelin/radiance/
 
 # Radiance Engine
-[![Build Status](https://github.com/ppipelin/radiance/actions/workflows/cmake-multi-platform.yml/badge.svg)](https://github.com/ppipelin/radiance_archived/actions/workflows/cmake-multi-platform.yml)
-[![Latest Release](https://img.shields.io/github/v/release/ppipelin/radiance?display_name=release)](https://github.com/ppipelin/radiance_archived/releases)
-![License](https://img.shields.io/github/license/ppipelin/radiance)
+[![Build Status](https://github.com/ppipelin/radiance_archived/actions/workflows/cmake-multi-platform.yml/badge.svg)](https://github.com/ppipelin/radiance_archived/actions/workflows/cmake-multi-platform.yml)
+[![Latest Release](https://img.shields.io/github/v/release/ppipelin/radiance_archived?display_name=release)](https://github.com/ppipelin/radiance_archived/releases)
+![License](https://img.shields.io/github/license/ppipelin/radiance_archived)
 
 [![Lichess classical rating](https://lichess-shield.vercel.app/api?username=radianceengine&format=classical)](https://lichess.org/@/radianceengine/perf/classical)
 [![Lichess rapid rating](https://lichess-shield.vercel.app/api?username=radianceengine&format=rapid)](https://lichess.org/@/radianceengine/perf/rapid)
