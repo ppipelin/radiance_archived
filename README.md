@@ -90,6 +90,7 @@ stop
 - `isready`
 - `setoption name <id> [value <x>]`
 - `position [fen <string> | startpos | kiwi | lasker] [moves <string>...]`
+- `eval`
 - `go [movetime <int> | [wtime <int>] [btime <int>] [winc <int>] [binc <int>] | depth <int> | infinite | perft <int>]`
 - `stop`
 - `quit`

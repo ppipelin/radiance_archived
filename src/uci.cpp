@@ -276,7 +276,21 @@ void UCI::loop(int argc, char *argv[])
 			else if (token == "isready")
 				std::cout << "readyok" << std::endl;
 			else if (token == "eval")
-				std::cout << "UCI - eval called" << std::endl;
+			{
+				std::unique_ptr<Evaluate> eval;
+				const std::string strEval = static_cast<std::string>(g_options["Evaluation"]);
+				if (strEval == "Shannon")
+					eval = std::make_unique<EvaluateShannon>();
+				else if (strEval == "ShannonHeuristics")
+					eval = std::make_unique<EvaluateShannonHeuristics>();
+				else if (strEval == "PSQ")
+					eval = std::make_unique<EvaluateTable>();
+				else if (strEval == "PSQTuned")
+					eval = std::make_unique<EvaluateTableTuned>();
+				else
+					eval = std::make_unique<EvaluateTableTunedBitboard>();
+				std::cout << eval->evaluate(pos) << std::endl;
+			}
 			else if (token == "--help" || token == "help")
 				std::cout << "\n\tuci"
 				"\n\tisready"
